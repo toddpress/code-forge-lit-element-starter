@@ -29,10 +29,10 @@ const polyfills = [
 ];
 
 const assets = [
-  // {
-  //   from: 'src/img',
-  //   to: 'img/',
-  // },
+  {
+    from: 'src/img',
+    to: 'img/',
+  },
 ];
 
 module.exports = (env) => {
