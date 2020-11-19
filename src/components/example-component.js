@@ -3,7 +3,7 @@ import { LitElement, css, customElement, html, property } from 'lit-element';
 @customElement('example-component')
 class ExampleComponent extends LitElement {
   @property({ type: String })
-  subject = 'Hello';
+  subject = 'LitElement';
 
   static get styles() {
     return css``;
