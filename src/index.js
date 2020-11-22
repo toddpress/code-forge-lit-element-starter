@@ -1,2 +1,2 @@
 import './styles.css';
-import './components/example-component';
+import './views/main-view.js';
