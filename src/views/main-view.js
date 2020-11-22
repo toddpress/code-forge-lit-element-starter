@@ -1,5 +1,7 @@
 import { LitElement, css, customElement, html, property } from 'lit-element'
 
+import { nanoid } from 'nanoid';
+
 const INITIAL_STATE = {
   cards: [
     {
@@ -10,8 +12,7 @@ const INITIAL_STATE = {
       front: '',
       back: '',
     },
-  ],
-  filter: VisibilityFilters.SHOW_ALL,
+  ]
 };
 
 @customElement('main-view')
