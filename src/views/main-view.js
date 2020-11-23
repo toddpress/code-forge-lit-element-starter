@@ -34,11 +34,11 @@ class MainView extends LitElement {
           }
           main {
             padding: var(--space-md) var(--space-sm);
-            background-color: lemonchiffon;
+            background-color: azure;
           }
           footer {
             padding: var(--space-md) var(--space-sm);
-            background-color: blueviolet;
+            background-color: dodgerblue;
             color: rgba(255, 255, 255, 0.88);
             
             text-align: center;
