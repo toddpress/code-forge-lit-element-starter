@@ -6,9 +6,9 @@
   "scripts": {
     "webpack": "webpack",
     "webpack-dev-server": "webpack-dev-server --history-api-fallback",
-    "prod": "npm run webpack -- --env.mode production --env.presets serviceworker",
     "dev": "npm run webpack-dev-server -- --env.mode development",
-    "dev:sw": "npm run webpack-dev-server -- --env.mode development  --env.presets serviceworker"
+    "dev:sw": "npm run webpack-dev-server -- --env.mode development  --env.presets serviceworker",
+    "prod": "npm run webpack -- --env.mode production --env.presets serviceworker"
   },
   "keywords": [],
   "author": "",
@@ -20,7 +20,8 @@
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
     "@babel/preset-env": "^7.12.1",
     "@webcomponents/webcomponentsjs": "^2.5.0",
-    "lit-element": "^2.4.0"
+    "lit-element": "^2.4.0",
+    "nanoid": "^3.1.18"
   },
   "devDependencies": {
     "babel-preset-minify": "^0.5.1",

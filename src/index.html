@@ -12,7 +12,7 @@
     <meta name="description" content="Tutorial app." />
 
     <!-- iOS -->
-    <!-- <link rel="apple-touch-icon" href="./img/icons/icon-144x144.png" /> -->
+    <link rel="apple-touch-icon" href="./img/icons/icon-144x144.png" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="mobile-web-app-status-bar-style" content="black" />
     <meta name="mobile-web-app-title" content="TutorialApp" />
@@ -22,16 +22,14 @@
         document.write('<!--');
       }
     </script>
-    <script src="./vendor/custom-elements-es5-adapter.js"></script>
+    
+    <script src="./vendor/custom-elements-es5-adapter.js"></script> <!-- adapter for es5 transpiled web-components, because the wc spec is based upon es6 classes  -->
     <!-- ! DO NOT REMOVE THIS COMMENT, WE NEED ITS CLOSING MARKER -->
   </head>
 
   <body>
-    <header><h1>Rolo app</h1></header>
+    <main-view></main-view>
 
-    <main>
-      <example-component></example-component>
-    </main>
-    <script src="./vendor/webcomponents-loader.js"></script>
+    <script src="./vendor/webcomponents-loader.js"></script> <!-- loads polyfills as needed, depending on client browser -->
   </body>
 </html>
